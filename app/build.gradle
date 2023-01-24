@@ -7,6 +7,10 @@ android {
     namespace 'poiuyreq0.unitconverter'
     compileSdk 33
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "poiuyreq0.unitconverter"
         minSdk 28
